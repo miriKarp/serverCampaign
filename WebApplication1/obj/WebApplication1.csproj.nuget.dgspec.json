@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\הנדסת מחשבים-תכנות\\יד\\Angular\\h.w\\program\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\user\\Desktop\\program\\serverCampaign\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\הנדסת מחשבים-תכנות\\יד\\Angular\\h.w\\program\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\user\\Desktop\\program\\serverCampaign\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\הנדסת מחשבים-תכנות\\יד\\Angular\\h.w\\program\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\program\\serverCampaign\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\הנדסת מחשבים-תכנות\\יד\\Angular\\h.w\\program\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\program\\serverCampaign\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\הנדסת מחשבים-תכנות\\יד\\Angular\\h.w\\program\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\program\\serverCampaign\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
