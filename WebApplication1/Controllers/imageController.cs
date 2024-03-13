@@ -67,11 +67,25 @@ namespace Server.Controllers
         }
 
 
-        // [HttpDelete("{sum}")]
-        // public Sum Delete(double sum)
-        // {
-        //     sumService.Delete(sum);
-        //     return s;
-        // }
+        [HttpDelete("{fileName}")]
+        public IActionResult DeleteFile(string fileName)
+        {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                return BadRequest("File name is empty");
+            }
+
+            var filePath = Path.Combine(UploadFolder, fileName);
+
+            if (System.IO.File.Exists(filePath))
+            {
+                System.IO.File.Delete(filePath);
+                return Ok(new { message = "File deleted successfully", fileName = fileName });
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
     }
 }
